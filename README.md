@@ -7,10 +7,21 @@ Run
     $ python manage.py makemigrations
     $ python manage.py migrate
     $ python manage.py insert_data
+    $ python manage.py runserver
 
 **python manage.py insert_data** command will insert all of the existing data to the newly created "Sale" model from the provided "xyz_sales_data.csv" dataset.
 
  ***Now Go to http://localhost:8000/api-docs/ to get the api listing/documentation***
+ 
+ Run the following command if you want to access the admin dashboard and see all the data:
+    
+    $ python manage.py createsuperuser
+    
+Provide your email, name and password. Your superuser will be created. Then run the server:
+
+    $ python manage.py runserver
+    
+Now you can access admin panel by login to http://localhost:8000/admin/login/?next=/admin/
 
 
 Apis
