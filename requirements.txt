@@ -1,0 +1,4 @@
+Django==4.2.1
+djangorestframework==3.14.0
+matplotlib==3.7.1
+xhtml2pdf==0.2.11
