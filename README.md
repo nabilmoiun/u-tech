@@ -28,7 +28,7 @@ Apis
 ====================
 + http://localhost:8000/login/ returns a login token for authenticating user
 + http://localhost:8000/register-user/ creates a new user
-+ http://localhost:8000/generate-pdf-report/ returns a pdf file containing the following information from Sale Data :
++ http://localhost:8000/generate-pdf-report/ returns a pdf file containing the following information from Sale Data. I have uploaded the demo **Report.pdf** file for reference. You may check this out. Or you may find the pdf here https://drive.google.com/file/d/1pPd6we3ZA7DjDkyW057bIpmH7FoNnZdw/view?usp=sharing
 
     + Total number of orders count per year
     + Total count of distinct customers
